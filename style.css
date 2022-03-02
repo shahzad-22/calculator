@@ -1,0 +1,119 @@
+@font-face{
+    font-family: myfont;
+    src: url(font/HindMadurai-Regular.ttf);
+}
+@font-face {
+    font-family: mysecondfont;
+    src: url(font/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: #F0F0F0;
+}
+.container{
+    background-color: #3B4664;
+    margin: 5% auto;
+    width: 80%;
+}
+.calculator{
+     
+    margin: 5% 28.5%;
+    display: inline-block;
+    width: 43%;
+    align-self: center;
+    color: #F0F0F0;
+    font-family: mysecondfont;
+     
+}
+#screen{
+    display: block;
+    /* background-color: #181F33; */
+    border-radius: 10px;
+    height: 116pt;
+    margin-top: 32pt;
+    color: hsl(0, 3%, 7%);
+    text-align: right;
+    font-family: myfont;
+    width: 450px;
+    border: none;
+}
+/* .cale_screen{
+    display: block;
+    background-color: #181F33;
+    border-radius: 10px;
+    height: 116pt;
+    margin-top: 32pt;
+    color: #F0F0F0;
+    text-align: right;
+     
+    font-family: myfont;
+    
+} */
+.space_line{
+    height: 20px;
+}
+.button_display{
+    background-color: #262C44;
+    border-radius: 10px;
+}
+.button_design{
+    width: 60pt;
+    height: 40pt;
+    border: none;
+    border-radius: 10px;
+    color: #3B3E4E;
+    text-align: center;
+    display: inline-block;
+    margin: 15px 15px;
+    font-size: 30px;
+    font-family: mysecondfont;
+    
+     
+
+}
+ button:hover{
+    background-color: orange;
+    text-decoration: none;
+}
+.button_design_del{
+    background-color: #647299;
+    width: 60pt;
+    height: 40pt;
+    border: none;
+    border-radius: 10px;
+    color: #F0F0F0;
+    text-align: center;
+    display: inline-block;
+    margin: 15px 15px;
+    font-size: 30px;
+    font-family: mysecondfont;
+     
+}
+.rest_button{
+    background-color: #647299;
+    width: 145pt;
+    height: 40pt;
+    border: none;
+    border-radius: 10px;
+    color: #F0F0F0;
+    text-align: center;
+    display: inline-block;
+    margin: 15px 15px 25px 15px;
+    font-size: 30px;
+    font-family: mysecondfont;
+     
+}
+.get_answer{
+    background-color: #D03F30;
+    width: 145pt;
+    height: 40pt;
+    border: none;
+    border-radius: 10px;
+    color: #F0F0F0;
+    text-align: center;
+    display: inline-block;
+    margin: 15px 15px 25px 15px;
+    font-size: 30px;
+    font-family: mysecondfont;
+     
+}
